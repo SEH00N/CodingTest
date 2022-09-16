@@ -33,7 +33,6 @@ vector<int> solution(string s) {
     int repeatCount = 0;
     int deleteCount = 0;
 
-
     while (s.length() > 1)
     {
         repeatCount++;
