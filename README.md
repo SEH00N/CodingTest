@@ -29,3 +29,6 @@ Record of my coding test
  - 최솟값 구하기 https://school.programmers.co.kr/learn/courses/30/lessons/12941
     - 문제 : 입력받은 같은 크기의 두 배열에서 각각 한 숫자를 뽑아 곱한 값을 모두 더했을 때 가장 작은 값이 나오도록 하는 함수를 완성하세요.
     - 한 배열에서는 가장 큰 값, 다른 한 배열에선 가장 작은 값을 뽑아 곱한 후 더하여 해결하였습니다.
+ - 올바른 괄호 https://school.programmers.co.kr/learn/courses/30/lessons/12909
+    - 문제 : 괄호로 이루어진 입력받은 문자열이 올바른 괄호인지 구분하는 함수를 완성하세요.
+    - '('의 개수와 ')' 갯수가 같아야 하고 ')'가 나오기 전에는 '('이 나와야 한다는 규칙을 찾아 해결하였습니다.
