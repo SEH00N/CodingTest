@@ -26,3 +26,6 @@ Record of my coding test
     - py - replace 함수 통해 0을 모두 지운 후 bin 함수를 활용하여 2진수로 바꾼 후 replace를 통해 0b(2진수 표현 형식)를 지우는 과정을 반복하여 해결하였습니다. 
     - cpp - removeAll(string input, char target)라는 input의 target을 모두 지운 문자열을 반환하는 메소드와 toBinary(int input)라는 input의 2진수 값을 반환하는 메소드를 만들어 해결하였습니다.
     - csharp - Replace 함수를 통해 0을 모두 지운 후 Convert.ToString()함수를 통해 2진수로 바꾸는 과정을 반복하여 해결하였습니다.
+ - 최솟값 구하기 https://school.programmers.co.kr/learn/courses/30/lessons/12941
+    - 문제 : 입력받은 같은 크기의 두 배열에서 각각 한 숫자를 뽑아 곱한 값을 모두 더했을 때 가장 작은 값이 나오도록 하는 함수를 완성하세요.
+    - 한 배열에서는 가장 큰 값, 다른 한 배열에선 가장 작은 값을 뽑아 곱한 후 더하여 해결하였습니다.
