@@ -32,3 +32,6 @@ Record of my coding test
  - 올바른 괄호 https://school.programmers.co.kr/learn/courses/30/lessons/12909
     - 문제 : 괄호로 이루어진 입력받은 문자열이 올바른 괄호인지 구분하는 함수를 완성하세요.
     - '('의 개수와 ')' 갯수가 같아야 하고 ')'가 나오기 전에는 '('이 나와야 한다는 규칙을 찾아 해결하였습니다.
+ - 자릿수 더하기 https://school.programmers.co.kr/learn/courses/30/lessons/12931
+    - 문제 : 입력받은 자연수 N의 각 자릿수를 더한 값을 반환하는 함수를 완성하세요.
+    - N을 문자열로 변환 후 문자열의 각 자리 값을 int로 변환하여 더해 해결하였습니다.
