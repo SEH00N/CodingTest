@@ -49,3 +49,7 @@ Record of my coding test
  - 약수의 합 https://school.programmers.co.kr/learn/courses/30/lessons/12928
   - 문제 : 정수 n을 입력받아 n의 약수를 모두 더한 값을 반환하는 함수를 완성하세요.
   - n의 제곱근만큼 반복하여 반복문 변수 i의 값이 n과 나눴을 때 나머지가 0인 경우를 i와 n / i의 값이 약수임을 찾아내 해결하였습니다.
+ - 평균 구하기 https://school.programmers.co.kr/learn/courses/30/lessons/12944
+  - 문제 : 정수를 담고 있는 배열 arr의 평균값을 반환하는 함수를 완성하세요.
+  - arr의 값을 모두 더한 값에 arr의 길이를 나눠 해결하였습니다.
+  
