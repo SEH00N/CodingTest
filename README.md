@@ -52,4 +52,6 @@ Record of my coding test
  - 평균 구하기 https://school.programmers.co.kr/learn/courses/30/lessons/12944
   - 문제 : 정수를 담고 있는 배열 arr의 평균값을 반환하는 함수를 완성하세요.
   - arr의 값을 모두 더한 값에 arr의 길이를 나눠 해결하였습니다.
-  
+ - 정수 제곱근 판별 https://school.programmers.co.kr/learn/courses/30/lessons/12934
+  - 문제 : n이 양의 정수 x의 제곱이라면 x+1의 제곱을 반환하고, n이 양의 정수 x의 제곱이 아니라면 -1을 반환하는 함수를 완성하세요.
+  - n을 Sqrt 후 (n - (long)n == 0) 으로 정수를 구분하여 해결하였습니다.
