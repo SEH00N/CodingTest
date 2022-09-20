@@ -55,3 +55,8 @@ Record of my coding test
  - 정수 제곱근 판별 https://school.programmers.co.kr/learn/courses/30/lessons/12934
    - 문제 : n이 양의 정수 x의 제곱이라면 x+1의 제곱을 반환하고, n이 양의 정수 x의 제곱이 아니라면 -1을 반환하는 함수를 완성하세요.
    - n을 Sqrt 후 (n - (long)n == 0) 으로 정수를 구분하여 해결하였습니다.
+
+# 22-09-20
+ - 자연수 뒤집어 배열로 만들기 https://school.programmers.co.kr/learn/courses/30/lessons/12932
+   - 문제 : 자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 반환하는 메소드를 완성하세요.
+   - 자연수 n을 문자열로 바꿔 뒤에서부터 차례대로 배열에 담아 해결하였습니다.
