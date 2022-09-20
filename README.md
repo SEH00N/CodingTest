@@ -60,7 +60,7 @@ Record of my coding test
  - 자연수 뒤집어 배열로 만들기 https://school.programmers.co.kr/learn/courses/30/lessons/12932
    - 문제 : 자연수 n을 뒤집어 각 자리 숫자를 원소로 가지는 배열 형태로 반환하는 함수를 완성하세요.
    - 자연수 n을 문자열로 바꿔 뒤에서부터 차례대로 배열에 담아 해결하였습니다.
- - 샤하드 수 https://school.programmers.co.kr/learn/courses/30/lessons/12947
-   - 샤하드 수 : 양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어지는 수
+ - 하샤드 수 https://school.programmers.co.kr/learn/courses/30/lessons/12947
+   - 하샤드 수 : 양의 정수 x가 하샤드 수이려면 x의 자릿수의 합으로 x가 나누어지는 수
    - 문제 : 자연수 x를 입력받아 x가 하샤드 수인지 아닌지 검사하는 함수를 완성하세요.
    - x를 x의 자릿수의 합으로 나눠 구분하였습니다.
