@@ -72,3 +72,6 @@ Record of my coding test
  > [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925)
  - 문제 : 문자열 s를 숫자로 변환한 결과를 반환하는 함수를 완성하세요.
  - Int Parse 메소드를 사용해 해결하였습니다.
+ > [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954)
+ - 문제 : 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 반환하는 함수를 완성하세요.
+ - i = 1; i <= n; i++ 만큼 반복하여 i * x를 리스트에 추가하여 해결하였습니다.
