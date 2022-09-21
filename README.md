@@ -69,3 +69,6 @@ Record of my coding test
  > [정수 내림차순 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12933)
  - 문제 : 입력받은 n의 각 자릿수를 큰것부터 작은 순으로 정렬한 새로운 정수를 반환하는 메소드를 완성하세요.
  - n을 자릿수별로 배열에 담아 역순으로 정렬 후 자릿수 별로 곱하여 해결하였습니다.
+ > [문자열을 정수로 바꾸기](https://school.programmers.co.kr/learn/courses/30/lessons/12925)
+ - 문제 : 문자열 s를 숫자로 변환한 결과를 반환하는 함수를 완성하세요.
+ - Int Parse 메소드를 사용해 해결하였습니다.
