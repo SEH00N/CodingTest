@@ -5,6 +5,6 @@ Record of my coding test
  > [Programmers](https://programmers.co.kr/)
  - [view](https://github.com/SEH00N/CodingTest/tree/main/Programmers#programmers)
  > [Baeckjoon](https://www.acmicpc.net/)
- - [view]()
+ - [view](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon#baekjoon)
  > [CodeUp](https://www.codeup.kr/)
- - [view]()
+ - [view](https://github.com/SEH00N/CodingTest/tree/main/CodeUp#codeup)
