@@ -81,3 +81,4 @@ Record of my coding test
  > [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943)
  - 콜라츠 추측 : 주어진 수가 짝수일 때 나누기 2 홀수일 때 3을 곱하고 1을 더하는 것을 반복하면 모든 수를 1로 만들 수 있다.
  - 문제 : 주어진 수 n 을 1로 만드려면 콜라츠 추측을 몇 번 반복해야 하는지 반환하는 함수를 완성하세요.
+ - while문을 통해 n 이 1이 될 때까지 반복하며 숫자를 새 해결하였다.
