@@ -75,3 +75,6 @@ Record of my coding test
  > [x만큼 간격이 있는 n개의 숫자](https://school.programmers.co.kr/learn/courses/30/lessons/12954)
  - 문제 : 정수 x와 자연수 n을 입력 받아, x부터 시작해 x씩 증가하는 숫자를 n개 지니는 리스트를 반환하는 함수를 완성하세요.
  - i = 1; i <= n; i++ 만큼 반복하여 i * x를 리스트에 추가하여 해결하였습니다.
+ > [나머지가 1이 되는 수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/87389)
+ - 문제 : 입력받은 자연수 n을 x로 나눈 나머지가 1이 되도록 하는 가장 작은 자연수 x를 반환하는 함수를 반환하는 함수를 완성하세요.
+ - i = 2; i < n; i++ 만큼 반복하여 n % i == 1 일 때 i값을 반환하여 해결하였습니다.
