@@ -87,3 +87,6 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)
  - 문제 : 두 정수 a, b가 주어졌을 때 a와 b 사이에 속한 모든 정수의 합을 반환하는 함수를 완성하세요.
  - a와 b의 대소를 구분한 후 큰 수에서 작은 수까지 반복하며 더하여 해결하였습니다.
+ > [서울에서 김서방 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12919)
+ - 문제 : String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아, "김서방은 x에 있다"는 String을 반환하는 함수를 완성하세요.
+ - 반복문을 활용하여 해결하였습니다.
