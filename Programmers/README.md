@@ -100,4 +100,4 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  - 범위기반 포문과 sort 함수를 사용하여 해결하였습니다.
  > [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935)
  - 문제 : 정수를 저장한 배열, arr 에서 가장 작은 수를 제거한 배열을 반환, 반환하려는 배열이 비어있을 경우 -1을 채워 반환하는 함수를 완성하세요.
- - 가장 작은 값을 배열에서 제거한 후 반환하여 해결하였습니다.
+ - 배열에서 가장 작은 값을 찾아 제거하였습니다.
