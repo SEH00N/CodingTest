@@ -95,3 +95,6 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [핸드폰 번호 가리기](https://school.programmers.co.kr/learn/courses/30/lessons/12948)
  - 문제 : 입력받은 문자열 형태의 전화번호의 뒷자리를 제외한 나머지 숫자를 전부 '*'으로 가린 문자열을 반환하는 함수를 완성하세요.
  - 반환값에 (문자열의 길이 - 4)만큼 반복하여 '*'을 추가하였고 입력받은 전화번호의 뒷 4자리를 추가하여 해결하였습니다.
+ > [나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910)
+ - 문제 : array의 각 element 중 divisor로 나누어 떨어지는 값을 오름차순으로 정렬한 배열을, divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을 담아 반환하는 함수를 완성하세요
+ - 범위기반 포문과 sort 함수를 사용하여 해결하였습니다.
