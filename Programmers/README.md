@@ -101,3 +101,7 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [제일 작은 수 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12935)
  - 문제 : 정수를 저장한 배열, arr 에서 가장 작은 수를 제거한 배열을 반환, 반환하려는 배열이 비어있을 경우 -1을 채워 반환하는 함수를 완성하세요.
  - 배열에서 가장 작은 값을 찾아 제거하였습니다.
+ > [수박수박수박수박수박수?](https://school.programmers.co.kr/learn/courses/30/lessons/12922)
+ - 문제 : 길이가 n이고, "수박수박수박수...."와 같은 패턴을 유지하는 문자열을 반환하는 함수를 완성하세요.
+ - 직접풀이 : n이 짝수일 때 n / 2만큼 반복하여 '수박'을 추가하였고, 홀수일 때 위와 같은 과정 후 '수'를 추가하였습니다.
+ - 다른사람풀이 : '수박'을 n + 1만큼 repeat후 0에서 n까지 문자열을 잘라 반환하였습니다.
