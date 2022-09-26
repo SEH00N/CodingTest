@@ -116,3 +116,6 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
  - 문제 : 길이가 같은 두 매개변수 1차원 정수 배열 a와 b의 내적을 반환하는 함수를 완성하세요.
  - 반복문을 활용하여 해결하였습니다.
+ > [문자열 내림차순으로 배치하기](https://school.programmers.co.kr/learn/courses/30/lessons/12917)
+ - 문제 : 문자열 s에 나타나는 문자를 큰것부터 작은 순으로 정렬해 새로운 문자열을 반환하는 함수를 완성하세요.
+ - 문자열을 문자의 배열로 바꾼 후 문자의 ASCII값에 대한 역순으로 정렬해 반환하여 해결하였습니다.
