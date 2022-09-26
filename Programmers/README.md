@@ -108,3 +108,8 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [가운데 글자 가져오기](https://school.programmers.co.kr/learn/courses/30/lessons/12903)
  - 문제 : 단어 s의 가운데 글자를 반환, 단어의 길이가 짝수라면 가운데 두글자를 반환하는 함수를 완성하세요.
  - 짝수일 때 (길이 / 2 - 1) 과 (길이 / 2) 위치의 값을 홀수일 때 (길이 / 2) 위치의 값을 반환하여 해결하였습니다.
+
+# 22-09-26
+ > [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)
+ - 문제 : 0부터 9까지의 숫자 중 일부가 들어있는 정수 배열 numbers 에서 찾을 수 없는 0부터 9까지의 숫자를 모두 찾아 더한 수를 반환하는 함수를 완성하세요.
+ - 부족한 수 = (0 ~ 9까지 모두 더한 수) - (numbers의 합) 이라는 규칙을 활용하여 해결하였습니다.
