@@ -113,3 +113,6 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [없는 숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051)
  - 문제 : 0부터 9까지의 숫자 중 일부가 들어있는 정수 배열 numbers 에서 찾을 수 없는 0부터 9까지의 숫자를 모두 찾아 더한 수를 반환하는 함수를 완성하세요.
  - 부족한 수 = (0 ~ 9까지 모두 더한 수) - (numbers의 합) 이라는 규칙을 활용하여 해결하였습니다.
+ > [내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)
+ - 문제 : 길이가 같은 두 매개변수 1차원 정수 배열 a와 b의 내적을 반환하는 함수를 완성하세요.
+ - 반복문을 활용하여 해결하였습니다.
