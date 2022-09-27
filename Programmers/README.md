@@ -122,3 +122,8 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [문자열 다루기 기본](https://school.programmers.co.kr/learn/courses/30/lessons/12918)
  - 문제 : 문자열 s의 길이가 4 혹은 6이고, 숫자로만 구성돼있는지 확인해주는 함수를 완성하세요.
  - 문자열의 길이를 구분한 후 문자열을 반복문을 이용해 하나하나 구분하여 숫자인지 아닌지 구분하였습니다.
+
+# 22-09-27
+ > [약수의 개수와 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/77884)
+ - 문제 : 두 정수 left와 right가 매개변수로 주어집니다. left부터 right까지의 모든 수들 중에서, 약수의 개수가 짝수인 수는 더하고, 약수의 개수가 홀수인 수는 뺀 수를 반환하는 함수를 완성하세요.
+ - left 에서 right 만큼 반복하여 약수의 개수를 구해 비교하여 해결하였습니다.
