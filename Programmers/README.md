@@ -127,3 +127,8 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [약수의 개수와 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/77884)
  - 문제 : 두 정수 left와 right가 매개변수로 주어집니다. left부터 right까지의 모든 수들 중에서, 약수의 개수가 짝수인 수는 더하고, 약수의 개수가 홀수인 수는 뺀 수를 반환하는 함수를 완성하세요.
  - left 에서 right 만큼 반복하여 약수의 개수를 구해 비교하여 해결하였습니다.
+  
+# 22-10-18
+ > [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)
+ - 문제 : 행렬의 덧셈은 행과 열의 크기가 같은 두 행렬의 같은 행, 같은 열의 값을 서로 더한 결과가 됩니다. 2개의 행렬 arr1과 arr2를 입력받아, 행렬 덧셈의 결과를 반환하는 함수, solution을 완성하세요.
+ - 각 위치의 있는 행렬의 요소를 더해 해결하였습니다.
