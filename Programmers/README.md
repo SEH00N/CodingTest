@@ -132,3 +132,8 @@ Record of My [Programmers](https://programmers.co.kr/) Coding Test
  > [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)
  - 문제 : 행렬의 덧셈은 행과 열의 크기가 같은 두 행렬의 같은 행, 같은 열의 값을 서로 더한 결과가 됩니다. 2개의 행렬 arr1과 arr2를 입력받아, 행렬 덧셈의 결과를 반환하는 함수, solution을 완성하세요.
  - 각 위치의 있는 행렬의 요소를 더해 해결하였습니다.
+
+# 23-01-17
+ > [이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)
+ - 문제 : 입력받은 문자열에서 띄어쓰기로 구분한 각 단어의 짝수번째 알파벳은 대문자로, 홀수번째 알파벳은 소문자로 바꾼 문자열을 반환하는 함수 solution을 완성하세요.
+ - 각 단어를 배열로 나열한 후, 나열한 단어의 문자를 조건에 알맞게 변환하여 해결하였습니다.
