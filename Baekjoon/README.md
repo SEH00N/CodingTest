@@ -528,4 +528,4 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 
 |||||
 |:-:|:-:|:-:|:-:|
-|<image src="./Tier/bronze2.png">|asd|||
+|<image src="./Tier/bronze2.png" width=5%>|asd|||
