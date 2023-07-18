@@ -495,5 +495,38 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
    - 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 주어졌을 때, 잘려진 쇠막대기 조각의 총 개수를 구하는 프로그램을 작성하시오.
 
 
-> [**** 번 문제](https://www.acmicpc.net/problem/)
+> [**바구니 뒤집기** 10811번 문제](https://www.acmicpc.net/problem/10811번)
  - 문제
+
+
+
+<table>
+  <colgroup>
+    <col style="width: 100px;">
+    <col>
+    <col>
+  </colgroup>
+  <tr align="center">
+    <td><image src="./Tier/silver4.png" width=20%></td>
+    <td> 
+      <a href="https://www.acmicpc.net/problem/1269" target="_blank">
+        <strong>대칭 차집합</strong>
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp" target="_blank">
+        <strong>소스 코드</strong>
+      </a>
+    </td>
+  </tr>
+  <tr align="center">
+    <td>내용 2-1</td>
+    <td>내용 2-2</td>
+    <td>내용 2-3</td>
+  </tr>
+</table>
+
+|||||
+|:-:|:-:|:-:|:-:|
+|![](Tier/bronze2.png)|asd|||
+|<image src="./Tier/bronze2.png" width=5%>|asd|||
