@@ -443,90 +443,12 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 <br/>
 
 # 2023-07
-> [**대칭 차집합** 1269번 문제](https://www.acmicpc.net/problem/1269)
- - 문제
-   - 자연수를 원소로 갖는 공집합이 아닌 두 집합 A와 B가 있다. 
-   - 이때, 두 집합의 대칭 차집합의 원소의 개수를 출력하는 프로그램을 작성하시오. 
-   - 두 집합 A와 B가 있을 때, (A-B)와 (B-A)의 합집합을 A와 B의 대칭 차집합이라고 한다.
 
-> [**공** 1547번 문제](https://www.acmicpc.net/problem/1547)
- - 문제
-   - 세준이는 컵 3개를 탁자 위에 일렬로 엎어놓았다. 
-   - 컵의 번호는 맨 왼쪽 컵부터 순서대로 1번, 2번 3번이고, 세준이는 이 컵을 이용해서 게임을 하려고 한다.
-   - 먼저 1번 컵의 아래에 공을 하나 넣는다. 
-   - 세준이는 두 컵을 고른 다음, 그 위치를 맞바꾸려고 한다. 
-   - 세준이는 컵의 위치를 총 M번 바꿀 것이며, 컵의 위치를 바꾼 방법이 입력으로 주어진다. 
-   - 위치를 M번 바꾼 이후에 공이 들어있는 컵의 번호를 구하는 프로그램을 작성하시오.
-
-> [**별 찍기 - 5** 2442번 문제](https://www.acmicpc.net/problem/2442)
- - 문제
-  - 첫째 줄에는 별 1개, 둘째 줄에는 별 3개, ..., N번째 줄에는 별 2×N-1개를 찍는 문제
-  - 별은 가운데를 기준으로 대칭이어야 한다.
-
-> [**문자열 폭발** 9935번 문제](https://www.acmicpc.net/problem/9935)
- - 문제
-   - 상근이는 문자열에 폭발 문자열을 심어 놓았다. 
-   - 폭발 문자열이 폭발하면 그 문자는 문자열에서 사라지며, 남은 문자열은 합쳐지게 된다.
-   - 폭발은 다음과 같은 과정으로 진행된다.
-     1. 문자열이 폭발 문자열을 포함하고 있는 경우에, 모든 폭발 문자열이 폭발하게 된다. 남은 문자열을 순서대로 이어 붙여 새로운 문자열을 만든다.
-     2. 새로 생긴 문자열에 폭발 문자열이 포함되어 있을 수도 있다.
-     3. 폭발은 폭발 문자열이 문자열에 없을 때까지 계속된다.
-   - 상근이는 모든 폭발이 끝난 후에 어떤 문자열이 남는지 구해보려고 한다. 남아있는 문자가 없는 경우가 있다. 이때는 "FRULA"를 출력한다.
-   - 폭발 문자열은 같은 문자를 두 개 이상 포함하지 않는다.
-
-> [**쇠막대기** 10799번 문제](https://www.acmicpc.net/problem/10799)
- - 문제
-   - 여러 개의 쇠막대기를 레이저로 절단하려고 한다. 효율적인 작업을 위해서 쇠막대기를 아래에서 위로 겹쳐 놓고, 레이저를 위에서 수직으로 발사하여 쇠막대기들을 자른다. 쇠막대기와 레이저의 배치는 다음 조건을 만족한다.
-     - 쇠막대기는 자신보다 긴 쇠막대기 위에만 놓일 수 있다. - 쇠막대기를 다른 쇠막대기 위에 놓는 경우 완전히 포함되도록 놓되, 끝점은 겹치지 않도록 놓는다.
-     - 각 쇠막대기를 자르는 레이저는 적어도 하나 존재한다.
-     - 레이저는 어떤 쇠막대기의 양 끝점과도 겹치지 않는다.
-   - 아래 그림은 위 조건을 만족하는 예를 보여준다. 수평으로 그려진 굵은 실선은 쇠막대기이고, 점은 레이저의 위치, 수직으로 그려진 점선 화살표는 레이저의 발사 방향이다.
-
-    <br/>
-    <image src="./10799.png">
-
-    <br/>
-
-   - 이러한 레이저와 쇠막대기의 배치는 다음과 같이 괄호를 이용하여 왼쪽부터 순서대로 표현할 수 있다.
-     1. 레이저는 여는 괄호와 닫는 괄호의 인접한 쌍 ‘( ) ’ 으로 표현된다. 또한, 모든 ‘( ) ’는 반드시 레이저를 표현한다.
-     2. 쇠막대기의 왼쪽 끝은 여는 괄호 ‘ ( ’ 로, 오른쪽 끝은 닫힌 괄호 ‘) ’ 로 표현된다.
-   - 위 예의 괄호 표현은 그림 위에 주어져 있다.
-   - 쇠막대기는 레이저에 의해 몇 개의 조각으로 잘려지는데, 위 예에서 가장 위에 있는 두 개의 쇠막대기는 각각 3개와 2개의 조각으로 잘려지고, 이와 같은 방식으로 주어진 쇠막대기들은 총 17개의 조각으로 잘려진다.
-   - 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 주어졌을 때, 잘려진 쇠막대기 조각의 총 개수를 구하는 프로그램을 작성하시오.
-
-
-> [**바구니 뒤집기** 10811번 문제](https://www.acmicpc.net/problem/10811번)
- - 문제
-
-
-
-<table>
-  <colgroup>
-    <col style="width: 100px;">
-    <col>
-    <col>
-  </colgroup>
-  <tr align="center">
-    <td><image src="./Tier/silver4.png" width=20%></td>
-    <td> 
-      <a href="https://www.acmicpc.net/problem/1269" target="_blank">
-        <strong>대칭 차집합</strong>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp" target="_blank">
-        <strong>소스 코드</strong>
-      </a>
-    </td>
-  </tr>
-  <tr align="center">
-    <td>내용 2-1</td>
-    <td>내용 2-2</td>
-    <td>내용 2-3</td>
-  </tr>
-</table>
-
-|||||
+|난이도|문제|풀이|번호|
 |:-:|:-:|:-:|:-:|
-|<image src="./Tier/silver4.png">|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
-|<image src="./Tier/bronze2.png">|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
+|![](./Tier/silver4.png)|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|1269번|
+|![](./Tier/bronze3.png)|[**공**](https://www.acmicpc.net/problem/1547)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1547.cpp)|1547번|
+|![](./Tier/bronze3.png)|[**별 찍기 - 5**](https://www.acmicpc.net/problem/2442)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2442.cpp)|2442번|
+|![](./Tier/gold4.png)|[**문자열 폭발**](https://www.acmicpc.net/problem/9935)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/9935.cpp)|9935번|
+|![](./Tier/silver2.png)|[**쇠막대기**](https://www.acmicpc.net/problem/10799)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10799.cpp)|10799번|
+|![](./Tier/bronze2.png)|[**바구니 뒤집기**](https://www.acmicpc.net/problem/10811)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10811.cpp)|10811번|
