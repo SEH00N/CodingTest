@@ -528,5 +528,5 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 
 |||||
 |:-:|:-:|:-:|:-:|
-|<image src="./Tier/silver4.png" width=25%>|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
-|<image src="./Tier/bronze2.png" width=25%>|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
+|<image src="./Tier/silver4.png">|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
+|<image src="./Tier/bronze2.png">|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|
