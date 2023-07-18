@@ -13,11 +13,12 @@ int main()
 	for (int i = 0; i < commandCount; ++i)
 	{
 		std::cin >> left >> right;
-		for (int j = left - 1; j < right; ++j)
+		for (int j = 0; j < (right - left) / 2 + 1; ++j)
 		{
-			int temp = baskets[j];
-			baskets[j] = baskets[right - j - 1];
+			int temp = baskets[left + j - 1];
+			baskets[left + j - 1] = baskets[right - j - 1];
 			baskets[right - j - 1] = temp;
+			std::cout  << "Swap Info : " << baskets[left + j - 1] << ' ' << baskets[right - j - 1] << '\n';
 		}
 	}
 
