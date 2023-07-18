@@ -241,132 +241,23 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 <br/>
 
 # 2023-04
-> [**색종이** 2563번 문제](https://www.acmicpc.net/problem/2563)
- - 문제
-   - 가로, 세로의 크기가 각각 100인 정사각형 모양의 흰색 도화지가 있다. 
-   - 이 도화지 위에 가로, 세로의 크기가 각각 10인 정사각형 모양의 검은색 색종이를 색종이의 변과 도화지의 변이 평행하도록 붙인다. 
-   - 이러한 방식으로 색종이를 한 장 또는 여러 장 붙인 후 색종이가 붙은 검은 영역의 넓이를 구하는 프로그램을 작성하시오.
 
-> [**최댓값** 2566번 문제](https://www.acmicpc.net/problem/2566)
- - 문제
-   - <그림 1>과 같이 9×9 격자판에 쓰여진 81개의 자연수 또는 0이 주어질 때, 이들 중 최댓값을 찾고 그 최댓값이 몇 행 몇 열에 위치한 수인지 구하는 프로그램을 작성하시오.
-     ||1열|2열|3열|4열|5열|6열|7열|8열|9열|
-     |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-     |1행|3|23|85|34|17|74|25|52|65|
-     |2행|10|7|39|42|88|52|14|72|63|
-     |3행|87|42|18|78|53|45|18|84|53
-     |4행|34|28|64|85|12|16|75|36|55
-     |5행|21|77|45|35|28|75|90|76|1
-     |6행|25|87|65|15|28|11|37|28|74
-     |7행|65|27|75|41|7|89|78|64|39
-     |8행|47|47|70|45|23|65|3|41|44
-     |9행|87|13|82|38|31|12|29|29|80
-   - 이들 중 최댓값은 90이고, 이 값은 5행 7열에 위치한다.
-
-> [**문자열 반복** 2675번 문제](https://www.acmicpc.net/problem/2675)
- - 문제
-   - 문자열 S를 입력받은 후에, 각 문자를 R번 반복해 새 문자열 P를 만든 후 출력하는 프로그램을 작성하시오. 
-   - 즉, 첫 번째 문자를 R번 반복하고, 두 번째 문자를 R번 반복하는 식으로 P를 만들면 된다. 
-   - S에는 QR Code "alphanumeric" 문자만 들어있다.
-   - QR Code "alphanumeric" 문자는 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\$%*+-./: 이다.
-
-> [**행렬 덧셈** 2738번 문제](https://www.acmicpc.net/problem/2738)
- - 문제
-   - N*M크기의 두 행렬 A와 B가 주어졌을 때, 두 행렬을 더하는 프로그램을 작성하시오.
-
-> [**단어 길이 재기** 2743번 문제](https://www.acmicpc.net/problem/2743)
- - 문제
-   - 알파벳으로만 이루어진 단어를 입력받아, 그 길이를 출력하는 프로그램을 작성하시오.
-
-> [**다이얼** 5622번 문제](https://www.acmicpc.net/problem/5622)
- - 문제
-   - 전화를 걸고 싶은 번호가 있다면, 숫자를 하나를 누른 다음에 금속 핀이 있는 곳 까지 시계방향으로 돌려야 한다. 
-   - 숫자를 하나 누르면 다이얼이 처음 위치로 돌아가고, 다음 숫자를 누르려면 다이얼을 처음 위치에서 다시 돌려야 한다.
-   - 숫자 1을 걸려면 총 2초가 필요하다. 
-   - 1보다 큰 수를 거는데 걸리는 시간은 이보다 더 걸리며, 한 칸 옆에 있는 숫자를 걸기 위해선 1초씩 더 걸린다.
-   - 상근이의 할머니는 전화 번호를 각 숫자에 해당하는 문자로 외운다. 
-   - 즉, 어떤 단어를 걸 때, 각 알파벳에 해당하는 숫자를 걸면 된다. 
-   - 예를 들어, UNUCIC는 868242와 같다.
-   - 할머니가 외운 단어가 주어졌을 때, 이 전화를 걸기 위해서 필요한 최소 시간을 구하는 프로그램을 작성하시오.
-
-> [**문자열** 9086번 문제](https://www.acmicpc.net/problem/9086)
- - 문제
-   - 문자열을 입력으로 주면 문자열의 첫 글자와 마지막 글자를 출력하는 프로그램을 작성하시오.
-
-> [**세로읽기** 번 문제](https://www.acmicpc.net/problem/10798)
- - 문제
-   - 장난감에 있는 글자들은 영어 대문자 ‘A’부터 ‘Z’, 영어 소문자 ‘a’부터 ‘z’, 숫자 ‘0’부터 ‘9’이다. 영석이는 칠판에 글자들을 수평으로 일렬로 붙여서 단어를 만든다. 다시 그 아래쪽에 글자들을 붙여서 또 다른 단어를 만든다. 이런 식으로 다섯 개의 단어를 만든다. 아래 그림 1은 영석이가 칠판에 붙여 만든 단어들의 예이다. 
-   
-      ```
-      A A B C D D
-      a f z z 
-      0 9 1 2 1
-      a 8 E W g 6
-      P 5 h 3 k x
-      ```
-
-   - 한 줄의 단어는 글자들을 빈칸 없이 연속으로 나열해서 최대 15개의 글자들로 이루어진다. 또한 만들어진 다섯 개의 단어들의 글자 개수는 서로 다를 수 있다. 
-   - 심심해진 영석이는 칠판에 만들어진 다섯 개의 단어를 세로로 읽으려 한다. 세로로 읽을 때, 각 단어의 첫 번째 글자들을 위에서 아래로 세로로 읽는다. 다음에 두 번째 글자들을 세로로 읽는다. 이런 식으로 왼쪽에서 오른쪽으로 한 자리씩 이동 하면서 동일한 자리의 글자들을 세로로 읽어 나간다. 위의 그림 1의 다섯 번째 자리를 보면 두 번째 줄의 다섯 번째 자리의 글자는 없다. 이런 경우처럼 세로로 읽을 때 해당 자리의 글자가 없으면, 읽지 않고 그 다음 글자를 계속 읽는다. 그림 1의 다섯 번째 자리를 세로로 읽으면 D1gk로 읽는다. 
-   - 그림 1에서 영석이가 세로로 읽은 순서대로 글자들을 공백 없이 출력하면 다음과 같다:
-   - Aa0aPAf985Bz1EhCz2W3D1gkD6x
-   - 칠판에 붙여진 단어들이 주어질 때, 영석이가 세로로 읽은 순서대로 글자들을 출력하는 프로그램을 작성하시오.
-
-> [**알파벳 찾기** 10809번 문제](https://www.acmicpc.net/problem/10809)
- - 문제
-   - 알파벳 소문자로만 이루어진 단어 S가 주어진다. 
-   - 각각의 알파벳에 대해서, 단어에 포함되어 있는 경우에는 처음 등장하는 위치를, 포함되어 있지 않은 경우에는 -1을 출력하는 프로그램을 작성하시오.
-
-> [**피보나치 수 5** 10870번 문제](https://www.acmicpc.net/problem/10870)
- - 문제
-   - 피보나치 수는 0과 1로 시작한다. 0번째 피보나치 수는 0이고, 1번째 피보나치 수는 1이다. 그 다음 2번째 부터는 바로 앞 두 피보나치 수의 합이 된다.
-   - 이를 식으로 써보면 Fn = Fn-1 + Fn-2 (n ≥ 2)가 된다.
-   - n=17일때 까지 피보나치 수를 써보면 다음과 같다.
-   - 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597
-   - n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작성하시오.
-
-> [**팩토리얼** 10872번 문제](https://www.acmicpc.net/problem/10872)
- - 문제
-   - 0보다 크거나 같은 정수 N이 주어진다. 이때, N!을 출력하는 프로그램을 작성하시오.
-
-> [**아스키 코드** 11654번 문제](https://www.acmicpc.net/problem/11654)
- - 문제
-   - 알파벳 소문자, 대문자, 숫자 0-9중 하나가 주어졌을 때, 주어진 글자의 아스키 코드값을 출력하는 프로그램을 작성하시오.
-
-> [**숫자의 합** 11720번 문제](https://www.acmicpc.net/problem/11720)
- - 문제
-   - N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오.
-
-> [**재귀의 귀재** 25501번 문제](https://www.acmicpc.net/problem/25501)
- - 문제
-   - 정휘는 후배들이 재귀 함수를 잘 다루는 재귀의 귀재인지 알아보기 위해 재귀 함수와 관련된 문제를 출제하기로 했다.
-   - 팰린드롬이란, 앞에서부터 읽었을 때와 뒤에서부터 읽었을 때가 같은 문자열을 말한다. 팰린드롬의 예시로 AAA, ABBA, ABABA 등이 있고, 팰린드롬이 아닌 문자열의 예시로 ABCA, PALINDROME 등이 있다.
-   - 어떤 문자열이 팰린드롬인지 판별하는 문제는 재귀 함수를 이용해 쉽게 해결할 수 있다. 아래 코드의 isPalindrome 함수는 주어진 문자열이 팰린드롬이면 1, 팰린드롬이 아니면 0을 반환하는 함수다.
-      ```c++
-      #include <stdio.h>
-      #include <string.h>
-
-      int recursion(const char *s, int l, int r){
-          if(l >= r) return 1;
-          else if(s[l] != s[r]) return 0;
-          else return recursion(s, l+1, r-1);
-      }
-
-      int isPalindrome(const char *s){
-          return recursion(s, 0, strlen(s)-1);
-      }
-
-      int main(){
-          printf("ABBA: %d\n", isPalindrome("ABBA")); // 1
-          printf("ABC: %d\n", isPalindrome("ABC"));   // 0
-      }
-      ```
-   - 정휘는 위에 작성된 isPalindrome 함수를 이용하여 어떤 문자열이 팰린드롬인지 여부를 판단하려고 한다.
-   - 구체적으로는, 문자열 s를 isPalindrome 함수의 인자로 전달하여 팰린드롬 여부를 반환값으로 알아낼 것이다. 더불어 판별하는 과정에서 recursion 함수를 몇 번 호출하는지 셀 것이다.
-   - 정휘를 따라 여러분도 함수의 반환값과 recursion 함수의 호출 횟수를 구해보자.
-
-> [**문자와 문자열** 27866번 문제](https://www.acmicpc.net/problem/27866)
- - 문제
-   - 단어 s와 정수 i가 주어졌을 때, s의 i번째 글자를 출력하는 프로그램을 작성하시오.
+|난이도|문제|풀이|번호|
+|:-:|:-:|:-:|:-:|
+|![](./Tier/silver5.png)|[**색종이**](https://www.acmicpc.net/problem/2563)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2563.cpp)|2563번|
+|![](./Tier/bronze3.png)|[**최댓값**](https://www.acmicpc.net/problem/2566)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2566.cpp)|2566번|
+|![](./Tier/bronze2.png)|[**문자열 반복**](https://www.acmicpc.net/problem/2675)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2675.cpp)|2675번|
+|![](./Tier/bronze5.png)|[**행렬 덧셈**](https://www.acmicpc.net/problem/2738)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2738.cpp)|2738번|
+|![](./Tier/bronze5.png)|[**단어 길이 재기**](https://www.acmicpc.net/problem/2743)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2743.cpp)|2743번|
+|![](./Tier/bronze2.png)|[**다이얼**](https://www.acmicpc.net/problem/5622)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/5622.cpp)|5622번|
+|![](./Tier/bronze5.png)|[**문자열**](https://www.acmicpc.net/problem/9086)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/9086.cpp)|9086번|
+|![](./Tier/bronze1.png)|[**세로읽기**](https://www.acmicpc.net/problem/10798)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10798.cpp)|10798번|
+|![](./Tier/bronze2.png)|[**알파벳 찾기**](https://www.acmicpc.net/problem/10809)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10809.cpp)|10809번|
+|![](./Tier/bronze2.png)|[**피보나치 수 5**](https://www.acmicpc.net/problem/10870)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10870.cpp)|10870번|
+|![](./Tier/bronze5.png)|[**팩토리얼**](https://www.acmicpc.net/problem/10872)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10872.cpp)|10872번|
+|![](./Tier/bronze5.png)|[**아스키 코드**](https://www.acmicpc.net/problem/11654)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/11654.cpp)|11654번|
+|![](./Tier/bronze2.png)|[**재귀의 귀재**](https://www.acmicpc.net/problem/25501)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/25501.cpp)|25501번|
+|![](./Tier/bronze5.png)|[**문자와 문자열**](https://www.acmicpc.net/problem/27866)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/27866.cpp)|27866번|
 
 <br/>
 
