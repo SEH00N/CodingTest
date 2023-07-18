@@ -440,6 +440,15 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
    - 상근이는 숫자 카드 N개를 가지고 있다. 
    - 정수 M개가 주어졌을 때, 이 수가 적혀있는 숫자 카드를 상근이가 가지고 있는지 아닌지를 구하는 프로그램을 작성하시오.
 
+|난이도|문제|풀이|번호|
+|:-:|:-:|:-:|:-:|
+|![](./Tier/silver4.png)|[**요세푸스 문제**](https://www.acmicpc.net/problem/1158)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1158.cpp)|1158번|
+|![](./Tier/silver4.png)|[**배스트 셀러**](https://www.acmicpc.net/problem/1302)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1302.cpp)|1302번|
+|![](./Tier/silver4.png)|[**나는야 포켓몬 마스터 이다솜**](https://www.acmicpc.net/problem/1620)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1620.cpp)|1620번|
+|![](./Tier/silver4.png)|[**듣보잡**](https://www.acmicpc.net/problem/1764)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1764.cpp)|1764번|
+|![](./Tier/silver4.png)|[**좋은 단어**](https://www.acmicpc.net/problem/3986)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/3986.cpp)|3986번|
+|![](./Tier/silver5.png)|[**숫자 카드**](https://www.acmicpc.net/problem/10815)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10815.cpp)|10815번|
+
 <br/>
 
 # 2023-07
