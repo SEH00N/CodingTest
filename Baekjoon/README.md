@@ -98,6 +98,7 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 
 |난이도|문제|풀이|번호|
 |:-:|:-:|:-:|:-:|
+|![](./Tier/silver3.png)|[**터렛**](https://www.acmicpc.net/problem/1002)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1002.cpp)|1002번|
 |![](./Tier/silver4.png)|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|1269번|
 |![](./Tier/bronze3.png)|[**공**](https://www.acmicpc.net/problem/1547)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1547.cpp)|1547번|
 |![](./Tier/bronze3.png)|[**별 찍기 - 5**](https://www.acmicpc.net/problem/2442)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2442.cpp)|2442번|
