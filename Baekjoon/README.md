@@ -38,6 +38,7 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze5.png)|[**A+B - 3**](https://www.acmicpc.net/problem/10950)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10950.cpp)|10950번|
 |![](./Tier/bronze5.png)|[**A+B - 4**](https://www.acmicpc.net/problem/10951)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10951.cpp)|10951번|
 |![](./Tier/bronze5.png)|[**A+B - 5**](https://www.acmicpc.net/problem/10952)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10952.cpp)|10952번|
+|![](./Tier/bronze2.png)|[**팰린드롬인지 확인하기**](https://www.acmicpc.net/problem/10988)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10988.cpp)|10988번|
 |![](./Tier/bronze5.png)|[**AxB**](https://www.acmicpc.net/problem/10998)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10998.cpp)|10998번|
 |![](./Tier/bronze5.png)|[**A+B - 7**](https://www.acmicpc.net/problem/11021)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/11021.cpp)|11021번|
 |![](./Tier/bronze5.png)|[**A+B - 8**](https://www.acmicpc.net/problem/11022)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/11022.cpp)|11022번|
