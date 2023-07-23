@@ -116,3 +116,4 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze2.png)|[**바구니 뒤집기**](https://www.acmicpc.net/problem/10811)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/10811.cpp)|10811번|
 |![](./Tier/bronze5.png)|[**그대로 출력하기**](https://www.acmicpc.net/problem/11718)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/11718.cpp)|11718번|
 |![](./Tier/bronze5.png)|[**새싹**](https://www.acmicpc.net/problem/25083)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/25083.cpp)|25083번|
+|![](./Tier/silver5.png)|[**너의 평점은**](https://www.acmicpc.net/problem/25206)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/25206.cpp)|25206번|
