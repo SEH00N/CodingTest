@@ -103,6 +103,7 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze2.png)|[**단어의 개수**](https://www.acmicpc.net/problem/1152)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1152.cpp)|1152번|
 |![](./Tier/bronze1.png)|[**단어 공부**](https://www.acmicpc.net/problem/1157)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1157.cpp)|1157번|
 |![](./Tier/silver4.png)|[**대칭 차집합**](https://www.acmicpc.net/problem/1269)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1269.cpp)|1269번|
+|![](./Tier/silver5.png)|[**그룹 단어 체커**](https://www.acmicpc.net/problem/1316)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1316.cpp)|1316번|
 |![](./Tier/bronze1.png)|[**평균**](https://www.acmicpc.net/problem/1546)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1546.cpp)|1546번|
 |![](./Tier/bronze3.png)|[**공**](https://www.acmicpc.net/problem/1547)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/1547.cpp)|1547번|
 |![](./Tier/bronze3.png)|[**별 찍기 - 5**](https://www.acmicpc.net/problem/2442)|[**소스 코드**](https://github.com/SEH00N/CodingTest/tree/main/Baekjoon/BaekjoonCodingTest/BaekjoonCodingTest/2442.cpp)|2442번|
