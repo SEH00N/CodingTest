@@ -110,6 +110,7 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze3.png)|[**별 찍기 - 7**](https://www.acmicpc.net/problem/2444)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2444.cpp)|2444번|
 |![](./Tier/bronze3.png)|[**세탁소 사장 동혁**](https://www.acmicpc.net/problem/2720)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2720.cpp)|2720번|
 |![](./Tier/bronze2.png)|[**진법 변환**](https://www.acmicpc.net/problem/2745)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2745.cpp)|2745번|
+|![](./Tier/bronze3.png)|[**중앙 이동 알고리즘**](https://www.acmicpc.net/problem/2903)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2903.cpp)|2903번|
 |![](./Tier/bronze2.png)|[**상수**](https://www.acmicpc.net/problem/2908)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2908.cpp)|2908번|
 |![](./Tier/silver5.png)|[**크로아티아 알파벳**](https://www.acmicpc.net/problem/2941)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2941.cpp)|2941번|
 |![](./Tier/bronze5.png)|[**킹, 퀸, 룩, 비숍, 나이트, 폰**](https://www.acmicpc.net/problem/3003)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/3003.cpp)|3003번|
