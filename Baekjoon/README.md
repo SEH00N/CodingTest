@@ -121,3 +121,11 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze5.png)|[**그대로 출력하기**](https://www.acmicpc.net/problem/11718)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/11718.cpp)|11718번|
 |![](./Tier/bronze5.png)|[**새싹**](https://www.acmicpc.net/problem/25083)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/25083.cpp)|25083번|
 |![](./Tier/silver5.png)|[**너의 평점은**](https://www.acmicpc.net/problem/25206)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/25206.cpp)|25206번|
+
+<br/>
+
+# 2023-08
+
+|난이도|문제|풀이|번호|
+|:-:|:-:|:-:|:-:|
+|![](./Tier/bronze2.png)|[**벌집**](https://www.acmicpc.net/problem/2292)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2292.cpp)|2292번|
