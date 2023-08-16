@@ -128,4 +128,5 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 
 |난이도|문제|풀이|번호|
 |:-:|:-:|:-:|:-:|
+|![](./Tier/silver5.png)|[**분수찾기**](https://www.acmicpc.net/problem/1193)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1193.cpp)|1193번|
 |![](./Tier/bronze2.png)|[**벌집**](https://www.acmicpc.net/problem/2292)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2292.cpp)|2292번|
