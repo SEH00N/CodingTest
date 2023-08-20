@@ -133,3 +133,4 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze3.png)|[**약수 구하기**](https://www.acmicpc.net/problem/2501)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2501.cpp)|2501번|
 |![](./Tier/bronze1.png)|[**달팽이는 올라가고 싶다**](https://www.acmicpc.net/problem/2869)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2869.cpp)|2869번|
 |![](./Tier/bronze3.png)|[**배수와 약수**](https://www.acmicpc.net/problem/5086)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/5086.cpp)|5086번|
+|![](./Tier/bronze1.png)|[**약수들의 합**](https://www.acmicpc.net/problem/9506)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/9506.cpp)|9506번|
