@@ -130,6 +130,7 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |:-:|:-:|:-:|:-:|
 |![](./Tier/silver5.png)|[**분수찾기**](https://www.acmicpc.net/problem/1193)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1193.cpp)|1193번|
 |![](./Tier/bronze2.png)|[**소수 찾기**](https://www.acmicpc.net/problem/1978)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1978.cpp)|1978번|
+|![](./Tier/silver1.png)|[**미로 탐색**](https://www.acmicpc.net/problem/2178)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2178.cpp)|2178번|
 |![](./Tier/bronze2.png)|[**벌집**](https://www.acmicpc.net/problem/2292)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2292.cpp)|2292번|
 |![](./Tier/bronze3.png)|[**약수 구하기**](https://www.acmicpc.net/problem/2501)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2501.cpp)|2501번|
 |![](./Tier/bronze2.png)|[**소수**](https://www.acmicpc.net/problem/2581)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/2581.cpp)|2581번|
