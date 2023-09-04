@@ -138,3 +138,9 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 |![](./Tier/bronze3.png)|[**배수와 약수**](https://www.acmicpc.net/problem/5086)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/5086.cpp)|5086번|
 |![](./Tier/bronze1.png)|[**약수들의 합**](https://www.acmicpc.net/problem/9506)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/9506.cpp)|9506번|
 |![](./Tier/bronze1.png)|[**소인수분해**](https://www.acmicpc.net/problem/11653)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/11653.cpp)|11653번|
+
+# 2023-09
+
+|난이도|문제|풀이|번호|
+|:-:|:-:|:-:|:-:|
+|![](./Tier/silver2.png)|[**특정 거리의 도시 찾기**](https://www.acmicpc.net/problem/18352)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/18352.cpp)|18352번|
