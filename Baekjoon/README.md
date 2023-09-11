@@ -143,4 +143,5 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 
 |난이도|문제|풀이|번호|
 |:-:|:-:|:-:|:-:|
+|![](./Tier/silver2.png)|[**유기농 배추**](https://www.acmicpc.net/problem/1012)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1012.cpp)|1012번|
 |![](./Tier/silver2.png)|[**특정 거리의 도시 찾기**](https://www.acmicpc.net/problem/18352)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/18352.cpp)|18352번|
