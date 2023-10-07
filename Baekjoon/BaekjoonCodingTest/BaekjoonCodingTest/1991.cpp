@@ -18,32 +18,29 @@ public:
 
 void PreOrder(TreeNode* treeRoot)
 {
+	if (treeRoot == nullptr)
+		return;
+
 	std::cout << treeRoot->value;
-
-	if (treeRoot->left != nullptr)
-		PreOrder(treeRoot->left);
-
-	if (treeRoot->right != nullptr)
-		PreOrder(treeRoot->right);
+	PreOrder(treeRoot->left);
+	PreOrder(treeRoot->right);
 }
 void InOrder(TreeNode* treeRoot)
 {
-	if (treeRoot->left != nullptr)
-		InOrder(treeRoot->left);
+	if (treeRoot == nullptr)
+		return;
 
+	InOrder(treeRoot->left);
 	std::cout << treeRoot->value;
-
-	if (treeRoot->right != nullptr)
-		InOrder(treeRoot->right);
+	InOrder(treeRoot->right);
 }
 void PostOrder(TreeNode* treeRoot)
 {
-	if (treeRoot->left != nullptr)
-		PostOrder(treeRoot->left);
+	if (treeRoot == nullptr)
+		return;
 
-	if (treeRoot->right != nullptr)
-		PostOrder(treeRoot->right);
-
+	PostOrder(treeRoot->left);
+	PostOrder(treeRoot->right);
 	std::cout << treeRoot->value;
 }
 

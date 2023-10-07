@@ -1,84 +1,73 @@
-#include <iostream>
-
 #include <vector>
-#include <queue>
+#include <algorithm>
 
-void DFS(int n, int now, std::vector<std::vector<int>> computers, std::vector<bool>& visited)
+struct TreeNode
 {
-	visited[now] = true;
+public:
+	TreeNode(int value) : left{ nullptr }, right{ nullptr }, value{ value } {}
 
-	for (int i = 0; i < n; ++i)
+public:
+	TreeNode* left;
+	TreeNode* right;
+	int value;
+};
+
+TreeNode* CreateTree(std::vector<std::vector<int>>& nodeinfo, int begin, int end)
+{
+	if (begin > end)
+		return nullptr;
+
+	int current = begin;
+	int maxHeight = nodeinfo[current][1];
+
+	for (int i = begin; i < end; ++i)
 	{
-		if (computers[now][i] == 0)
-			continue;
-
-		if (visited[i] == true)
-			continue;
-
-		DFS(n, i, computers, visited);
-	}
-}
-
-int solution(int n, std::vector<std::vector<int>> computers) {
-	int answer = 0;
-
-	std::vector<bool> visited;
-	visited.resize(n, false);
-
-	for (int i = 0; i < n; ++i)
-	{
-		if (visited[i] == true)
-			continue;
-
-		++answer;
-		DFS(n, i, computers, visited);
+		if (nodeinfo[i][1] > maxHeight)
+		{
+			maxHeight = nodeinfo[i][1];
+			current = i;
+		}
 	}
 
-	return answer;
+	TreeNode* node = new TreeNode(nodeinfo[current][2]);
+	node->left = CreateTree(nodeinfo, begin, current - 1);
+	node->right = CreateTree(nodeinfo, current + 1, end);
 }
 
-//int solution(int n, std::vector<std::vector<int>> computers) {
-//    int answer = 0;
-//
-//    std::vector<bool> visited;
-//    visited.resize(n, false);
-//
-//    for (int i = 0; i < n; ++i)
-//    {
-//        if (visited[i] == true)
-//            continue;
-//
-//        ++answer;
-//
-//        std::queue<int> reservation;
-//        reservation.push(i);
-//        visited[i] = true;
-//
-//        while (reservation.empty() == false)
-//        {
-//            int now = reservation.front();
-//            reservation.pop();
-//
-//            for (int j = 0; j < n; ++j)
-//            {
-//                if (computers[now][j] == 0)
-//                    continue;
-//
-//                if (visited[j] == true)
-//                    continue;
-//
-//                reservation.push(j);
-//                visited[j] = true;
-//            }
-//        }
-//    }
-//
-//    return answer;
-//}
-
-int main()
+void PreOrder(std::vector<std::vector<int>>& answer, TreeNode* node)
 {
-	//std::cout << solution(3, { { 1, 1, 0 }, { 1, 1, 0 }, { 0, 0, 1 } });
-	std::cout << solution(3, { { 1, 1, 0 }, { 1, 1, 1 }, { 0, 1, 1 } });
-    return 0;
+	if (node == nullptr)
+		return;
+
+	answer[0].push_back(node->value);
+	PreOrder(answer, node->left);
+	PreOrder(answer, node->right);
+}
+
+void PostOrder(std::vector<std::vector<int>>& answer, TreeNode* node)
+{
+	if (node == nullptr)
+		return;
+
+	PostOrder(answer, node->left);
+	PostOrder(answer, node->right);
+	answer[1].push_back(node->value);
+}
+
+std::vector<std::vector<int>> solution(std::vector<std::vector<int>> nodeinfo) {
+    std::vector<std::vector<int>> answer;
+	
+	for (int i = 0; i < nodeinfo.size(); ++i)
+		nodeinfo[i][2] = i + 1;
+
+	std::sort(nodeinfo.begin(), nodeinfo.end());
+
+    TreeNode* treeRoot = CreateTree(nodeinfo, 0, nodeinfo.size() - 1);
+
+	answer.resize(2, std::vector<int>());
+
+	PreOrder(answer, treeRoot);
+	PostOrder(answer, treeRoot);
+
+    return answer;
 }
