@@ -150,5 +150,6 @@ Record of My [Baekjoon](https://www.acmicpc.net/) Coding Test
 # 2023-10
 |난이도|문제|풀이|번호|
 |:-:|:-:|:-:|:-:|
-|![](./Tier/silver1.png)|[**트리 순회**](https://www.acmicpc.net/problem/1991)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1991.cpp)|1991번|
 |![](./Tier/silver4.png)|[**수 찾기**](https://www.acmicpc.net/problem/1920)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1920.cpp)|1920번|
+|![](./Tier/silver1.png)|[**트리 순회**](https://www.acmicpc.net/problem/1991)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/1991.cpp)|1991번|
+|![](./Tier/gold5.png)|[**이진 검색 트리**](https://www.acmicpc.net/problem/5639)|[**소스 코드**](./BaekjoonCodingTest/BaekjoonCodingTest/5639.cpp)|5639번|
