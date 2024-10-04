@@ -2,6 +2,40 @@ namespace CSharp.Programmers;
 
 class Solution1844
 {
+    // static void Main(string[] args)
+    // {
+    //     Solution1844 solution = new Solution1844();
+        
+    //     Console.WriteLine(solution.Solution(new int[,] {
+    //         { 1, 0, 1, 1, 1 }, 
+    //         { 1, 0, 1, 0, 1 }, 
+    //         { 1, 0, 1, 1, 1 }, 
+    //         { 1, 1, 1, 0, 1 }, 
+    //         { 0, 0, 0, 0, 1 }
+    //     }));
+
+    //     Console.WriteLine("");
+
+    //     Console.WriteLine(solution.Solution(new int[,] {
+    //         { 1, 0, 1, 1, 1 },
+    //         { 1, 0, 1, 0, 1 },
+    //         { 1, 0, 1, 1, 1 },
+    //         { 1, 1, 1, 0, 0 },
+    //         { 0, 0, 0, 0, 1 }
+    //     }));
+
+    //     Console.WriteLine("");
+
+    //     Console.WriteLine(solution.Solution(new int[,] {
+    //         { 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+    //         { 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1 },
+    //         { 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1 },//19
+    //         { 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1 },//22
+    //         { 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1 },//23
+    //         { 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1 } //24
+    //     }));
+    // }
+
     public int Solution(int[,] maps)
     {
         int targetY = maps.GetLength(0) - 1; // Array.GetLength(0) => row count
