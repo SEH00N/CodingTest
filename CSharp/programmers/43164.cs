@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace CSharp.Programmers;
 
+// 여행경로
 class Solution43164
 {
     // static void Main(string[] args)

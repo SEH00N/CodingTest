@@ -1,5 +1,6 @@
 namespace CSharp.Programmers;
 
+// 게임맵 최단거리
 class Solution1844
 {
     // static void Main(string[] args)

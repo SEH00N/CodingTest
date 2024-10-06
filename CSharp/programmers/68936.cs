@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace CSharp.Programmers;
 
+// 쿼드압축 후 개수 세기
 class Solution68936
 {
     // static void Main(string[] args)

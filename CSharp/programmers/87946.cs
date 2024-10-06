@@ -1,5 +1,6 @@
 namespace CSharp.Programmers;
 
+// 피로도
 class Solution87946
 {
     // static void Main(string[] args)

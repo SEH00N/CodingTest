@@ -1,5 +1,6 @@
 namespace CSharp.Programmers;
 
+// 네트워크
 class Solution43162
 {
     // static void Main(string[] args)
