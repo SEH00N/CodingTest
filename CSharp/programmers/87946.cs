@@ -21,14 +21,12 @@ class Solution87946
         for(int i = 0; i < length; ++i)
         {
             visited[i] = true;
-            k -= dungeons[i, 1];
 
-            int temp = Search(k, length, visited, dungeons);
+            int temp = Search(k - dungeons[i, 1], length, visited, dungeons);
             if(temp > answer)
                 answer = temp;
 
             visited[i] = false;
-            k += dungeons[i, 1];
         }
 
         return answer;
@@ -55,14 +53,12 @@ class Solution87946
                 continue;
 
             visited[i] = true;
-            k -= dungeons[i, 1];
 
-            int temp = Search(k, length, visited, dungeons);
+            int temp = Search(k - dungeons[i, 1], length, visited, dungeons);
             if(temp > count)
                 count = temp;
 
             visited[i] = false;
-            k += dungeons[i, 1];
         }
 
         return ++count;

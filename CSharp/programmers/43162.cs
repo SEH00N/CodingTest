@@ -41,16 +41,17 @@ class Solution43162
 
     private void NetworkSearch(int root, int length, int[,] computers, bool[] visited)
     {
-        if(visited[root])
-            return;
-
-        visited[root] = true;
-
         for(int i = 0; i < length; ++i)
         {
             int connection = computers[root, i];
-            if(connection == 1)
-                NetworkSearch(i, length, computers, visited);
+            if(connection == 0)
+                continue;
+
+            if(visited[i])
+                continue;
+                
+            visited[i] = true;
+            NetworkSearch(i, length, computers, visited);
         }
     }
 }

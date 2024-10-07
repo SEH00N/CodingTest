@@ -4,36 +4,39 @@ using System;
 namespace CSharp.Programmers;
 
 // 삼각 달팽이
+// dp로 풀어야 하나 머리를 꽁꽁싸매고 고민했지만
+// 질문목록에 올라온 풀이들이 대부분 이차원 배열을 사용하길래 자세히 들여다 보니
+// 정말 무식하게 달팽이를 그려서 풀어야 한다는 사실을 깨닫고 푼 문제
 class Solution68645
 {
-    static void Main(string[] args)
-    {
-        Solution68645 solution = new Solution68645();
+    // static void Main(string[] args)
+    // {
+    //     Solution68645 solution = new Solution68645();
 
-        {
-            int[] answer = solution.Solution(4);
-            Console.Write("[");
-            for(int i = 0; i < answer.Length - 1; ++i)
-                Console.Write($"{answer[i]}, ");
-            Console.WriteLine($"{answer[^1]}]");
-        }
+    //     {
+    //         int[] answer = solution.Solution(4);
+    //         Console.Write("[");
+    //         for(int i = 0; i < answer.Length - 1; ++i)
+    //             Console.Write($"{answer[i]}, ");
+    //         Console.WriteLine($"{answer[^1]}]");
+    //     }
 
-        {
-            int[] answer = solution.Solution(5);
-            Console.Write("[");
-            for(int i = 0; i < answer.Length - 1; ++i)
-                Console.Write($"{answer[i]}, ");
-            Console.WriteLine($"{answer[^1]}]");
-        }
+    //     {
+    //         int[] answer = solution.Solution(5);
+    //         Console.Write("[");
+    //         for(int i = 0; i < answer.Length - 1; ++i)
+    //             Console.Write($"{answer[i]}, ");
+    //         Console.WriteLine($"{answer[^1]}]");
+    //     }
 
-        {
-            int[] answer = solution.Solution(6);
-            Console.Write("[");
-            for(int i = 0; i < answer.Length - 1; ++i)
-                Console.Write($"{answer[i]}, ");
-            Console.WriteLine($"{answer[^1]}]");
-        }
-    }
+    //     {
+    //         int[] answer = solution.Solution(6);
+    //         Console.Write("[");
+    //         for(int i = 0; i < answer.Length - 1; ++i)
+    //             Console.Write($"{answer[i]}, ");
+    //         Console.WriteLine($"{answer[^1]}]");
+    //     }
+    // }
 
     public int[] Solution(int n) 
     {

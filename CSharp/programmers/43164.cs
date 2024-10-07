@@ -142,6 +142,7 @@ class Solution43164
                 }
             }
 
+            // 모든 티켓이 사용되었다면 true 반환
             return true;
         }
 
@@ -154,6 +155,7 @@ class Solution43164
             destinations.Add(destination.destination);
             destination.visited = true;
 
+            // 아래 재귀에서 true가 반환되었다면 그대로 모두 true 반환
             if(Visit(destination.destination, ticketMap, destinations))
                 return true;
 
